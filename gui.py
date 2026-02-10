@@ -3,7 +3,7 @@ from tkinter import *
 from tkinter import filedialog
 import customtkinter as ctk
 from tktooltip import ToolTip
-from functions import update_example, parse_folder, insert_preview, rename_file
+from rename import update_example, parse_folder, insert_preview, rename_file
 
 # Set theme and color options
 ctk.set_appearance_mode("system") # Modes: system (default), light, dark
